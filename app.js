@@ -1,7 +1,7 @@
 /** Express app for Lunchly. */
 
 const express = require('express');
-const nunjucks = require('nunjucks');
+const nunjucks = require('nunjucks'); // render jinja templates
 const bodyParser = require('body-parser');
 const routes = require('./routes');
 

@@ -78,6 +78,15 @@ class Customer {
       );
     }
   }
+
+  /** return full name of user.
+   * works with 'get fullName()' if you don't include () in nunjucks template
+   * https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/get
+   */
+
+  fullName() {
+    return `${this.firstName} ${this.lastName}`;
+  }
 }
 
 module.exports = Customer;
